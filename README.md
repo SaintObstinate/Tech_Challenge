@@ -52,7 +52,7 @@ application of ISTQB best practices.
 
 |Tool|Purpose|
 |---|---|
-|Playwright | E2E Automation|
+|Playwright | E2E Automation & API Automation|
 |Node.js | Automation runtime
 |Visual Studio Code |	Development
 |Google Chrome | Manual Testing
@@ -131,7 +131,7 @@ npm install
 npx playwright install
 ```
 
-**How to Run UI Tests**
+## How to Run UI Tests
 
 Enter the test directory
 ```bash
@@ -147,7 +147,7 @@ To show the test report:
 npx playwright show-report 
 ```
 
-**How to Run API Tests**
+## How to Run API Tests
 
 Enter the test directory
 ```bash
