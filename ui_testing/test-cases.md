@@ -241,3 +241,69 @@ User remain logged in
 Passed
 
 ---
+
+## TC-010 - Product Sorted by Name
+
+### Preconditions
+- User must be registered in the system
+
+### Dataset
+| Dataset | Sort Option | Expected Result |
+|---|---|---|
+| DS-001 | Name (A to Z) | Products sorted by name alphabetically
+| DS-002 | Name (Z to A) | Products sorted by name descending alphabetically
+
+### Test Steps
+
+| Step | Action |
+|---|---|
+| 1 | Access login page |
+| 2 | Enter valid username |
+| 3 | Enter valid password |
+| 4 | Click on Login button |
+| 5 | Click on the Filter Dropdown |
+| 6 | Select a Name option|
+
+### Expected Result
+Products should be sorted based on the selected filter
+
+### Actual Result
+Products sorted correctly based on the selected filter
+
+### Status
+Passed
+
+---
+
+## TC-011 - Product Sorted by Price
+
+### Preconditions
+- User must be registered in the system
+
+### Dataset
+| Dataset | Sort Option | Expected Result |
+|---|---|---|
+| DS-001 | Price (low to high) | Products sorted by ascending price 
+| DS-002 | Name (high to low) | Products sorted by descending price
+
+### Test Steps
+
+| Step | Action |
+|---|---|
+| 1 | Access login page |
+| 2 | Enter valid username |
+| 3 | Enter valid password |
+| 4 | Click on Login button |
+| 5 | Click on the Filter Dropdown |
+| 6 | Select Price option|
+
+### Expected Result
+Products should be sorted by price based on the selected filter
+
+### Actual Result
+Products sorted by price based on the selected filter
+
+### Status
+Passed
+
+---
